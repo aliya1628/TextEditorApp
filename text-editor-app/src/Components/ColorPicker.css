@@ -1,0 +1,49 @@
+.p-colorpicker-overlay {
+    position: relative;
+}
+.p-colorpicker {
+    display: inline-block;
+}
+.p-component, .p-component * {
+    box-sizing: border-box;
+}
+.p-component {
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+    font-size: 1rem;
+    font-weight: normal;
+}
+.p-inputtext {
+    margin: 0;
+}
+.p-colorpicker-preview {
+    cursor: pointer;
+}
+.p-disabled, .p-disabled * {
+    cursor: default!important;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.p-component, .p-component * {
+    box-sizing: border-box;
+}
+.p-inputtext {
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+    font-size: 1rem;
+    color: #495057;
+    background: #ffffff;
+    padding: 0.75rem 0.75rem;
+    border: 1px solid #ced4da;
+    /* transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s; */
+    appearance: none;
+    border-radius: 6px;
+}
+.p-colorpicker-preview {
+    width: 2rem;
+    height: 2rem;
+}
+.p-disabled, .p-component:disabled {
+    opacity: 0.6;
+}
